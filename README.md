@@ -1,4 +1,3 @@
-# sweet-corner-about-as
 <?php include "config.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -147,6 +146,104 @@
 </footer>
  <div class="footer-bottom">
     <p><b>© 2026 My Shop. The Sweet Corner.</b></p> </div>
+
+
+
+  
+  
+ .TEXT1{
+        text-align: center;
+        font-size: 17px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+        color:black;
+    }
+
+    .TEXT2{
+        text-align: center;
+        margin-top: 10px;
+        color: black;
+    }
+  
+    .about-us{
+      
+        margin: 5px auto;
+        
+        background: #efefef;
+        width: 80%;
+        height: 350px;
+        border-radius: 30px;
+    }
+    
+   .btns{
+        display: flex;
+        gap: 2px;
+        padding-left: 45%;
+}
+
+    .btns button{
+        border: none;
+       background:  rgb(116, 39, 39);
+        color: white;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        margin-bottom: 30px;
+        cursor: pointer;
+    }
+
+      .btns button:hover{
+        border: none;
+          background-color:rgb(176, 165, 166);
+        width: 35px;
+        height: 35px;
+    }
+
+    .blocks{
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+    .diva{
+        width: 100%;
+        height: auto;
+        display: block;
+       
+    }
+
+     .divb{
+        display: none;
+        width: 100%;
+        height: auto;
+        
+     
+    }
+
+      .divc{
+        display: none;
+        width: 100%;
+        height: auto;
+     
+       
+    }
+
+ 
+  .about-info-text{
+    width: 40%;
+    margin-left: 55px;
+    margin-top: 20px;
+  }
+
+.about-info{
+    display: flex;
+}
+
+  .about-image{
+    width: 30%;
+    height: 30%;
+    border-radius: 30px;
+    margin-left: 150px;
+  }
      <script type="text/javascript" src="script.js"></script>
 </body>
 </html>
